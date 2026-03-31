@@ -29,8 +29,6 @@ puts "with summing #{a + b}"
 
 puts "\n #{a.concat(b)}"
 
-puts a.methods
-
 [].empty?               #=> true
 [[]].empty?             #=> false
 [1, 2].empty?           #=> false
