@@ -57,3 +57,7 @@ puts "my_order_mapped #{my_order_mapped}"
 
 puts "===================================="
 puts "The select method"
+
+responses = { 'Sharon' => 'yes', 'Leo' => 'no', 'Leila' => 'no', 'Arun' => 'yes' }
+confirmed = responses.select { |person, response| response == 'yes'}
+puts "confirmed #{confirmed}"
