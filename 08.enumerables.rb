@@ -61,3 +61,11 @@ puts "The select method"
 responses = { 'Sharon' => 'yes', 'Leo' => 'no', 'Leila' => 'no', 'Arun' => 'yes' }
 confirmed = responses.select { |person, response| response == 'yes'}
 puts "confirmed #{confirmed}"
+
+puts "===================================="
+puts "The reduce method"
+
+my_numbers = [5, 6, 7, 8]
+
+my_numbers.reduce { |sum, number| sum + number }
+#=> 26
